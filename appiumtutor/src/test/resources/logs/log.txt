@@ -1,0 +1,291 @@
+2020-05-24 18:10:11:425 [Appium] Welcome to Appium v1.15.1
+2020-05-24 18:10:11:428 [Appium] Non-default server args:
+2020-05-24 18:10:11:430 [Appium]   logFile: C:\Users\divya\eclipse-workspace\appiumtutor\src\test\resources\logs\log.txt
+2020-05-24 18:10:11:430 [Appium]   localTimezone: true
+2020-05-24 18:10:11:481 [Appium] Appium REST http interface listener started on 0.0.0.0:4723
+2020-05-24 18:10:11:526 [HTTP] --> GET /wd/hub/status
+2020-05-24 18:10:11:527 [HTTP] {}
+2020-05-24 18:10:11:530 [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2020-05-24 18:10:11:532 [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.15.1"}}
+2020-05-24 18:10:11:541 [HTTP] <-- GET /wd/hub/status 200 11 ms - 68
+2020-05-24 18:10:11:542 [HTTP] 
+2020-05-24 18:10:13:024 [HTTP] --> POST /wd/hub/session
+2020-05-24 18:10:13:024 [HTTP] {"desiredCapabilities":{"appActivity":"io.selendroid.testapp.HomeScreenActivity","appPackage":"io.selendroid.testapp","platformVersion":"9","platformName":"Android","udid":"192.168.43.44:5555","deviceName":"SM-M205F"},"capabilities":{"firstMatch":[{"appium:appActivity":"io.selendroid.testapp.HomeScreenActivity","appium:appPackage":"io.selendroid.testapp","appium:deviceName":"SM-M205F","platformName":"android","appium:platformVersion":"9","appium:udid":"192.168.43.44:5555"}]}}
+2020-05-24 18:10:13:026 [W3C] Calling AppiumDriver.createSession() with args: [{"appActivity":"io.selendroid.testapp.HomeScreenActivity","appPackage":"io.selendroid.testapp","platformVersion":"9","platformName":"Android","udid":"192.168.43.44:5555","deviceName":"SM-M205F"},null,{"firstMatch":[{"appium:appActivity":"io.selendroid.testapp.HomeScreenActivity","appium:appPackage":"io.selendroid.testapp","appium:deviceName":"SM-M205F","platformName":"android","appium:platformVersion":"9","appium:udid":"192.168.43.44:5555"}]}]
+2020-05-24 18:10:13:027 [BaseDriver] Event 'newSessionRequested' logged at 1590324013026 (18:10:13 GMT+0530 (India Standard Time))
+2020-05-24 18:10:13:038 [Appium] 
+2020-05-24 18:10:13:038 [Appium] ======================================================================
+2020-05-24 18:10:13:039 [Appium]   DEPRECATION WARNING:
+2020-05-24 18:10:13:039 [Appium] 
+2020-05-24 18:10:13:039 [Appium]   The 'automationName' capability was not provided in the desired 
+2020-05-24 18:10:13:040 [Appium]   capabilities for this Android session
+2020-05-24 18:10:13:040 [Appium] 
+2020-05-24 18:10:13:041 [Appium]   Setting 'automationName=UiAutomator2' by default and using the 
+2020-05-24 18:10:13:041 [Appium]   UiAutomator2 Driver
+2020-05-24 18:10:13:041 [Appium] 
+2020-05-24 18:10:13:042 [Appium]   The next major version of Appium (2.x) will **require** the 
+2020-05-24 18:10:13:042 [Appium]   'automationName' capability to be set for all sessions on all 
+2020-05-24 18:10:13:042 [Appium]   platforms
+2020-05-24 18:10:13:043 [Appium] 
+2020-05-24 18:10:13:043 [Appium]   In previous versions (Appium <= 1.13.x), the default was 
+2020-05-24 18:10:13:043 [Appium]   'automationName=UiAutomator1'
+2020-05-24 18:10:13:044 [Appium] 
+2020-05-24 18:10:13:044 [Appium]   If you wish to use that automation instead of UiAutomator2, please 
+2020-05-24 18:10:13:044 [Appium]   add 'automationName=UiAutomator1' to your desired capabilities
+2020-05-24 18:10:13:045 [Appium] 
+2020-05-24 18:10:13:045 [Appium]   For more information about drivers, please visit 
+2020-05-24 18:10:13:045 [Appium]   http://appium.io/docs/en/about-appium/intro/ and explore the 
+2020-05-24 18:10:13:046 [Appium]   'Drivers' menu
+2020-05-24 18:10:13:046 [Appium] 
+2020-05-24 18:10:13:046 [Appium] ======================================================================
+2020-05-24 18:10:13:047 [Appium] 
+2020-05-24 18:10:13:405 [Appium] Appium v1.15.1 creating new AndroidUiautomator2Driver (v1.37.2) session
+2020-05-24 18:10:13:409 [BaseDriver] W3C capabilities and MJSONWP desired capabilities were provided
+2020-05-24 18:10:13:410 [BaseDriver] Creating session with W3C capabilities: {
+2020-05-24 18:10:13:410 [BaseDriver]   "alwaysMatch": {
+2020-05-24 18:10:13:411 [BaseDriver]     "platformName": "android",
+2020-05-24 18:10:13:411 [BaseDriver]     "appium:appActivity": "io.selendroid.testapp.HomeScreenActivity",
+2020-05-24 18:10:13:412 [BaseDriver]     "appium:appPackage": "io.selendroid.testapp",
+2020-05-24 18:10:13:412 [BaseDriver]     "appium:deviceName": "SM-M205F",
+2020-05-24 18:10:13:412 [BaseDriver]     "appium:platformVersion": "9",
+2020-05-24 18:10:13:413 [BaseDriver]     "appium:udid": "192.168.43.44:5555"
+2020-05-24 18:10:13:413 [BaseDriver]   },
+2020-05-24 18:10:13:413 [BaseDriver]   "firstMatch": [
+2020-05-24 18:10:13:414 [BaseDriver]     {}
+2020-05-24 18:10:13:414 [BaseDriver]   ]
+2020-05-24 18:10:13:414 [BaseDriver] }
+2020-05-24 18:10:13:431 [BaseDriver] Session created with session id: ef421d2d-1697-4d53-8011-4325ca96271c
+2020-05-24 18:10:13:432 [UiAutomator2] Starting 'io.selendroid.testapp' directly on the device
+2020-05-24 18:10:13:920 [ADB] Found 1 'build-tools' folders under 'C:\Users\divya\Music\appium\sdk-tools-windows-4333796' (newest first):
+2020-05-24 18:10:13:921 [ADB]     C:/Users/divya/Music/appium/sdk-tools-windows-4333796/build-tools/28.0.0
+2020-05-24 18:10:13:923 [ADB] Using 'adb.exe' from 'C:\Users\divya\Music\appium\sdk-tools-windows-4333796\platform-tools\adb.exe'
+2020-05-24 18:10:13:924 [AndroidDriver] Retrieving device list
+2020-05-24 18:10:13:925 [ADB] Trying to find a connected android device
+2020-05-24 18:10:13:927 [ADB] Getting connected devices...
+2020-05-24 18:10:13:968 [ADB] Connected devices: [{"udid":"192.168.43.44:5555","state":"device"}]
+2020-05-24 18:10:13:969 [AndroidDriver] Using device: 192.168.43.44:5555
+2020-05-24 18:10:13:972 [ADB] Using 'adb.exe' from 'C:\Users\divya\Music\appium\sdk-tools-windows-4333796\platform-tools\adb.exe'
+2020-05-24 18:10:13:973 [ADB] Setting device id to 192.168.43.44:5555
+2020-05-24 18:10:13:975 [ADB] Running 'C:\Users\divya\Music\appium\sdk-tools-windows-4333796\platform-tools\adb.exe -P 5037 -s 192.168.43.44\:5555 shell getprop ro.build.version.sdk'
+2020-05-24 18:10:14:125 [ADB] Current device property 'ro.build.version.sdk': 28
+2020-05-24 18:10:14:126 [ADB] Running 'C:\Users\divya\Music\appium\sdk-tools-windows-4333796\platform-tools\adb.exe -P 5037 -s 192.168.43.44\:5555 shell getprop ro.build.version.release'
+2020-05-24 18:10:14:367 [ADB] Current device property 'ro.build.version.release': 9
+2020-05-24 18:10:14:368 [ADB] Device API level: 28
+2020-05-24 18:10:14:369 [UiAutomator2] Relaxing hidden api policy
+2020-05-24 18:10:14:371 [ADB] Running 'C:\Users\divya\Music\appium\sdk-tools-windows-4333796\platform-tools\adb.exe -P 5037 -s 192.168.43.44\:5555 shell settings put global hidden_api_policy_pre_p_apps 1'
+2020-05-24 18:10:14:515 [ADB] Running 'C:\Users\divya\Music\appium\sdk-tools-windows-4333796\platform-tools\adb.exe -P 5037 -s 192.168.43.44\:5555 shell settings put global hidden_api_policy_p_apps 1'
+2020-05-24 18:10:14:650 [ADB] Running 'C:\Users\divya\Music\appium\sdk-tools-windows-4333796\platform-tools\adb.exe -P 5037 -s 192.168.43.44\:5555 shell settings put global hidden_api_policy 1'
+2020-05-24 18:10:14:775 [AndroidDriver] No app sent in, not parsing package/activity
+2020-05-24 18:10:14:776 [ADB] Running 'C:\Users\divya\Music\appium\sdk-tools-windows-4333796\platform-tools\adb.exe -P 5037 -s 192.168.43.44\:5555 wait-for-device'
+2020-05-24 18:10:14:813 [ADB] Running 'C:\Users\divya\Music\appium\sdk-tools-windows-4333796\platform-tools\adb.exe -P 5037 -s 192.168.43.44\:5555 shell echo ping'
+2020-05-24 18:10:14:887 [AndroidDriver] Pushing settings apk to device...
+2020-05-24 18:10:14:889 [ADB] Getting install status for io.appium.settings
+2020-05-24 18:10:14:890 [ADB] Running 'C:\Users\divya\Music\appium\sdk-tools-windows-4333796\platform-tools\adb.exe -P 5037 -s 192.168.43.44\:5555 shell dumpsys package io.appium.settings'
+2020-05-24 18:10:15:007 [ADB] 'io.appium.settings' is installed
+2020-05-24 18:10:15:008 [ADB] Getting package info for 'io.appium.settings'
+2020-05-24 18:10:15:009 [ADB] Running 'C:\Users\divya\Music\appium\sdk-tools-windows-4333796\platform-tools\adb.exe -P 5037 -s 192.168.43.44\:5555 shell dumpsys package io.appium.settings'
+2020-05-24 18:10:15:136 [ADB] Cannot extract apk info using apkanalyzer. Falling back to aapt. Original error: Could not find 'apkanalyzer.bat' in ["C:\\Users\\divya\\Music\\appium\\sdk-tools-windows-4333796\\platform-tools\\apkanalyzer.bat","C:\\Users\\divya\\Music\\appium\\sdk-tools-windows-4333796\\emulator\\apkanalyzer.bat","C:\\Users\\divya\\Music\\appium\\sdk-tools-windows-4333796\\tools\\apkanalyzer.bat","C:\\Users\\divya\\Music\\appium\\sdk-tools-windows-4333796\\tools\\bin\\apkanalyzer.bat","C:\\Users\\divya\\Music\\appium\\sdk-tools-windows-4333796\\build-tools\\28.0.0\\apkanalyzer.bat"]. Do you have Android Build Tools installed at 'C:\Users\divya\Music\appium\sdk-tools-windows-4333796'?
+2020-05-24 18:10:15:139 [ADB] Using 'aapt.exe' from 'C:\Users\divya\Music\appium\sdk-tools-windows-4333796\build-tools\28.0.0\aapt.exe'
+2020-05-24 18:10:15:163 [ADB] The version code of the installed 'io.appium.settings' is greater than the application version code (20 > 19)
+2020-05-24 18:10:15:164 [ADB] There is no need to downgrade 'io.appium.settings'
+2020-05-24 18:10:15:166 [ADB] Getting IDs of all 'io.appium.settings' processes
+2020-05-24 18:10:15:167 [ADB] Running 'C:\Users\divya\Music\appium\sdk-tools-windows-4333796\platform-tools\adb.exe -P 5037 -s 192.168.43.44\:5555 shell 'pgrep --help; echo $?''
+2020-05-24 18:10:15:272 [ADB] Running 'C:\Users\divya\Music\appium\sdk-tools-windows-4333796\platform-tools\adb.exe -P 5037 -s 192.168.43.44\:5555 shell pgrep -f io\\.appium\\.settings'
+2020-05-24 18:10:15:422 [AndroidDriver] io.appium.settings is already running. There is no need to reset its permissions.
+2020-05-24 18:10:15:422 [ADB] Running 'C:\Users\divya\Music\appium\sdk-tools-windows-4333796\platform-tools\adb.exe -P 5037 -s 192.168.43.44\:5555 shell appops set io.appium.settings android\:mock_location allow'
+2020-05-24 18:10:15:554 [Logcat] Starting logcat capture
+2020-05-24 18:10:15:663 [UiAutomator2] Server package at 'C:\Program Files\Appium\resources\app\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v4.3.0.apk' is not writeable. Will copy it into the temporary location at 'C:\Users\divya\AppData\Local\Temp\2020424-812-wqcdkf.0mjrd' as a workaround. Consider making this file writeable manually in order to improve the performance of session startup.
+2020-05-24 18:10:15:666 [UiAutomator2] Server package at 'C:\Program Files\Appium\resources\app\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk' is not writeable. Will copy it into the temporary location at 'C:\Users\divya\AppData\Local\Temp\2020424-812-wqcdkf.0mjrd' as a workaround. Consider making this file writeable manually in order to improve the performance of session startup.
+2020-05-24 18:10:15:689 [ADB] Getting install status for io.appium.uiautomator2.server
+2020-05-24 18:10:15:690 [ADB] Running 'C:\Users\divya\Music\appium\sdk-tools-windows-4333796\platform-tools\adb.exe -P 5037 -s 192.168.43.44\:5555 shell dumpsys package io.appium.uiautomator2.server'
+2020-05-24 18:10:15:829 [ADB] 'io.appium.uiautomator2.server' is installed
+2020-05-24 18:10:15:830 [ADB] Getting package info for 'io.appium.uiautomator2.server'
+2020-05-24 18:10:15:830 [ADB] Running 'C:\Users\divya\Music\appium\sdk-tools-windows-4333796\platform-tools\adb.exe -P 5037 -s 192.168.43.44\:5555 shell dumpsys package io.appium.uiautomator2.server'
+2020-05-24 18:10:16:005 [ADB] Cannot extract apk info using apkanalyzer. Falling back to aapt. Original error: Could not find 'apkanalyzer.bat' in ["C:\\Users\\divya\\Music\\appium\\sdk-tools-windows-4333796\\platform-tools\\apkanalyzer.bat","C:\\Users\\divya\\Music\\appium\\sdk-tools-windows-4333796\\emulator\\apkanalyzer.bat","C:\\Users\\divya\\Music\\appium\\sdk-tools-windows-4333796\\tools\\apkanalyzer.bat","C:\\Users\\divya\\Music\\appium\\sdk-tools-windows-4333796\\tools\\bin\\apkanalyzer.bat","C:\\Users\\divya\\Music\\appium\\sdk-tools-windows-4333796\\build-tools\\28.0.0\\apkanalyzer.bat"]. Do you have Android Build Tools installed at 'C:\Users\divya\Music\appium\sdk-tools-windows-4333796'?
+2020-05-24 18:10:16:037 [ADB] The version name of the installed 'io.appium.uiautomator2.server' is greater or equal to the application version name ('4.3.0' >= '4.3.0')
+2020-05-24 18:10:16:039 [UiAutomator2] io.appium.uiautomator2.server installation state: sameVersionInstalled
+2020-05-24 18:10:16:039 [ADB] Checking app cert for C:\Users\divya\AppData\Local\Temp\2020424-812-wqcdkf.0mjrd\appium-uiautomator2-server-v4.3.0.apk
+2020-05-24 18:10:16:042 [ADB] Using 'apksigner.bat' from 'C:\Users\divya\Music\appium\sdk-tools-windows-4333796\build-tools\28.0.0\apksigner.bat'
+2020-05-24 18:10:16:043 [ADB] Starting 'C:\Users\divya\Music\appium\sdk-tools-windows-4333796\build-tools\28.0.0\apksigner.bat' with args '["verify","--print-certs","C:\\Users\\divya\\AppData\\Local\\Temp\\2020424-812-wqcdkf.0mjrd\\appium-uiautomator2-server-v4.3.0.apk"]'
+2020-05-24 18:10:17:341 [ADB] apksigner stdout: Signer #1 certificate DN: EMAILADDRESS=android@android.com, CN=Android, OU=Android, O=Android, L=Mountain View, ST=California, C=US
+2020-05-24 18:10:17:342 [ADB] Signer #1 certificate SHA-256 digest: a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc
+2020-05-24 18:10:17:342 [ADB] Signer #1 certificate SHA-1 digest: 61ed377e85d386a8dfee6b864bd85b0bfaa5af81
+2020-05-24 18:10:17:342 [ADB] Signer #1 certificate MD5 digest: e89b158e4bcf988ebd09eb83f5378e87
+2020-05-24 18:10:17:343 [ADB] 
+2020-05-24 18:10:17:343 [ADB] 'C:\Users\divya\AppData\Local\Temp\2020424-812-wqcdkf.0mjrd\appium-uiautomator2-server-v4.3.0.apk' is already signed.
+2020-05-24 18:10:17:344 [ADB] Getting install status for io.appium.uiautomator2.server.test
+2020-05-24 18:10:17:344 [ADB] Running 'C:\Users\divya\Music\appium\sdk-tools-windows-4333796\platform-tools\adb.exe -P 5037 -s 192.168.43.44\:5555 shell dumpsys package io.appium.uiautomator2.server.test'
+2020-05-24 18:10:17:576 [ADB] 'io.appium.uiautomator2.server.test' is installed
+2020-05-24 18:10:17:577 [ADB] Checking app cert for C:\Users\divya\AppData\Local\Temp\2020424-812-wqcdkf.0mjrd\appium-uiautomator2-server-debug-androidTest.apk
+2020-05-24 18:10:17:578 [ADB] Starting 'C:\Users\divya\Music\appium\sdk-tools-windows-4333796\build-tools\28.0.0\apksigner.bat' with args '["verify","--print-certs","C:\\Users\\divya\\AppData\\Local\\Temp\\2020424-812-wqcdkf.0mjrd\\appium-uiautomator2-server-debug-androidTest.apk"]'
+2020-05-24 18:10:18:628 [ADB] apksigner stdout: Signer #1 certificate DN: CN=Android Debug, O=Android, C=US
+2020-05-24 18:10:18:629 [ADB] Signer #1 certificate SHA-256 digest: 3e4f2ab66d641bbbd363421151755f8b12b66ea37a5db43c52116596b7392a8e
+2020-05-24 18:10:18:629 [ADB] Signer #1 certificate SHA-1 digest: e24fc8971c0aad07d1df6cc62af7fb0d48b45b60
+2020-05-24 18:10:18:630 [ADB] Signer #1 certificate MD5 digest: 5623d53469c7f7147b52ace9d09901eb
+2020-05-24 18:10:18:630 [ADB] 
+2020-05-24 18:10:18:631 [ADB] 'C:\Users\divya\AppData\Local\Temp\2020424-812-wqcdkf.0mjrd\appium-uiautomator2-server-debug-androidTest.apk' is signed with non-default certificate
+2020-05-24 18:10:18:635 [ADB] Using 'zipalign.exe' from 'C:\Users\divya\Music\appium\sdk-tools-windows-4333796\build-tools\28.0.0\zipalign.exe'
+2020-05-24 18:10:18:657 [ADB] C:\Users\divya\AppData\Local\Temp\2020424-812-wqcdkf.0mjrd\appium-uiautomator2-server-debug-androidTest.apk' is already zip-aligned. Doing nothing
+2020-05-24 18:10:18:657 [ADB] Signing 'C:\Users\divya\AppData\Local\Temp\2020424-812-wqcdkf.0mjrd\appium-uiautomator2-server-debug-androidTest.apk' with default cert
+2020-05-24 18:10:18:658 [ADB] Starting 'C:\Users\divya\Music\appium\sdk-tools-windows-4333796\build-tools\28.0.0\apksigner.bat' with args '["sign","--key","C:\\Program Files\\Appium\\resources\\app\\node_modules\\appium\\node_modules\\appium-adb\\keys\\testkey.pk8","--cert","C:\\Program Files\\Appium\\resources\\app\\node_modules\\appium\\node_modules\\appium-adb\\keys\\testkey.x509.pem","C:\\Users\\divya\\AppData\\Local\\Temp\\2020424-812-wqcdkf.0mjrd\\appium-uiautomator2-server-debug-androidTest.apk"]'
+2020-05-24 18:10:20:051 [UiAutomator2] Server packages are going to be (re)installed
+2020-05-24 18:10:20:051 [UiAutomator2] Full packages reinstall is going to be performed
+2020-05-24 18:10:20:052 [ADB] Uninstalling io.appium.uiautomator2.server
+2020-05-24 18:10:20:052 [ADB] Getting install status for io.appium.uiautomator2.server
+2020-05-24 18:10:20:053 [ADB] Running 'C:\Users\divya\Music\appium\sdk-tools-windows-4333796\platform-tools\adb.exe -P 5037 -s 192.168.43.44\:5555 shell dumpsys package io.appium.uiautomator2.server'
+2020-05-24 18:10:20:166 [ADB] 'io.appium.uiautomator2.server' is installed
+2020-05-24 18:10:20:166 [ADB] Running 'C:\Users\divya\Music\appium\sdk-tools-windows-4333796\platform-tools\adb.exe -P 5037 -s 192.168.43.44\:5555 shell am force-stop io.appium.uiautomator2.server'
+2020-05-24 18:10:20:287 [ADB] Running 'C:\Users\divya\Music\appium\sdk-tools-windows-4333796\platform-tools\adb.exe -P 5037 -s 192.168.43.44\:5555 uninstall io.appium.uiautomator2.server'
+2020-05-24 18:10:21:347 [ADB] 'adb uninstall io.appium.uiautomator2.server' command output: Success
+2020-05-24 18:10:21:348 [ADB] io.appium.uiautomator2.server was successfully uninstalled
+2020-05-24 18:10:21:387 [ADB] Running 'C:\Users\divya\Music\appium\sdk-tools-windows-4333796\platform-tools\adb.exe -P 5037 -s 192.168.43.44\:5555 shell 'ls -t -1 /data/local/tmp/appium_cache 2>&1 || echo _ERROR_''
+2020-05-24 18:10:21:618 [ADB] The count of applications in the cache: 7
+2020-05-24 18:10:21:620 [ADB] The application at 'C:\Users\divya\AppData\Local\Temp\2020424-812-wqcdkf.0mjrd\appium-uiautomator2-server-v4.3.0.apk' is already cached to '/data/local/tmp/appium_cache/0cc1725a60a05dbb5d0d09256f2fc6ece7e3b10f.apk'
+2020-05-24 18:10:21:625 [ADB] Running 'C:\Users\divya\Music\appium\sdk-tools-windows-4333796\platform-tools\adb.exe -P 5037 -s 192.168.43.44\:5555 shell pm install -r /data/local/tmp/appium_cache/0cc1725a60a05dbb5d0d09256f2fc6ece7e3b10f.apk'
+2020-05-24 18:10:23:462 [ADB] The installation of 'appium-uiautomator2-server-v4.3.0.apk' took 1.838s
+2020-05-24 18:10:23:464 [ADB] Install command stdout: Success
+2020-05-24 18:10:23:465 [ADB] Uninstalling io.appium.uiautomator2.server.test
+2020-05-24 18:10:23:466 [ADB] Getting install status for io.appium.uiautomator2.server.test
+2020-05-24 18:10:23:467 [ADB] Running 'C:\Users\divya\Music\appium\sdk-tools-windows-4333796\platform-tools\adb.exe -P 5037 -s 192.168.43.44\:5555 shell dumpsys package io.appium.uiautomator2.server.test'
+2020-05-24 18:10:23:722 [ADB] 'io.appium.uiautomator2.server.test' is installed
+2020-05-24 18:10:23:723 [ADB] Running 'C:\Users\divya\Music\appium\sdk-tools-windows-4333796\platform-tools\adb.exe -P 5037 -s 192.168.43.44\:5555 shell am force-stop io.appium.uiautomator2.server.test'
+2020-05-24 18:10:23:997 [ADB] Running 'C:\Users\divya\Music\appium\sdk-tools-windows-4333796\platform-tools\adb.exe -P 5037 -s 192.168.43.44\:5555 uninstall io.appium.uiautomator2.server.test'
+2020-05-24 18:10:24:772 [ADB] 'adb uninstall io.appium.uiautomator2.server.test' command output: Success
+2020-05-24 18:10:24:773 [ADB] io.appium.uiautomator2.server.test was successfully uninstalled
+2020-05-24 18:10:24:783 [ADB] Running 'C:\Users\divya\Music\appium\sdk-tools-windows-4333796\platform-tools\adb.exe -P 5037 -s 192.168.43.44\:5555 shell 'ls -t -1 /data/local/tmp/appium_cache 2>&1 || echo _ERROR_''
+2020-05-24 18:10:25:016 [ADB] The count of applications in the cache: 7
+2020-05-24 18:10:25:017 [ADB] The application at 'C:\Users\divya\AppData\Local\Temp\2020424-812-wqcdkf.0mjrd\appium-uiautomator2-server-debug-androidTest.apk' is already cached to '/data/local/tmp/appium_cache/bb3c9a361048ff6a78cfbff9cbcb177215ea6d8b.apk'
+2020-05-24 18:10:25:019 [ADB] Running 'C:\Users\divya\Music\appium\sdk-tools-windows-4333796\platform-tools\adb.exe -P 5037 -s 192.168.43.44\:5555 shell pm install -r /data/local/tmp/appium_cache/bb3c9a361048ff6a78cfbff9cbcb177215ea6d8b.apk'
+2020-05-24 18:10:25:855 [ADB] The installation of 'appium-uiautomator2-server-debug-androidTest.apk' took 0.835s
+2020-05-24 18:10:25:856 [ADB] Install command stdout: Success
+2020-05-24 18:10:25:875 [UiAutomator2] Waiting up to 30000ms for services to be available
+2020-05-24 18:10:25:877 [ADB] Running 'C:\Users\divya\Music\appium\sdk-tools-windows-4333796\platform-tools\adb.exe -P 5037 -s 192.168.43.44\:5555 shell pm list instrumentation'
+2020-05-24 18:10:26:067 [UiAutomator2] Instrumentation target 'io.appium.uiautomator2.server.test/androidx.test.runner.AndroidJUnitRunner' is available
+2020-05-24 18:10:26:068 [UiAutomator2] Forwarding UiAutomator2 Server port 6790 to 8201
+2020-05-24 18:10:26:068 [ADB] Forwarding system: 8201 to device: 6790
+2020-05-24 18:10:26:069 [ADB] Running 'C:\Users\divya\Music\appium\sdk-tools-windows-4333796\platform-tools\adb.exe -P 5037 -s 192.168.43.44\:5555 forward tcp\:8201 tcp\:6790'
+2020-05-24 18:10:26:105 [UiAutomator2] No app capability. Assuming it is already on the device
+2020-05-24 18:10:26:106 [ADB] Getting install status for io.selendroid.testapp
+2020-05-24 18:10:26:107 [ADB] Running 'C:\Users\divya\Music\appium\sdk-tools-windows-4333796\platform-tools\adb.exe -P 5037 -s 192.168.43.44\:5555 shell dumpsys package io.selendroid.testapp'
+2020-05-24 18:10:26:444 [ADB] 'io.selendroid.testapp' is installed
+2020-05-24 18:10:26:446 [ADB] Running 'C:\Users\divya\Music\appium\sdk-tools-windows-4333796\platform-tools\adb.exe -P 5037 -s 192.168.43.44\:5555 shell am force-stop io.selendroid.testapp'
+2020-05-24 18:10:26:877 [ADB] Running 'C:\Users\divya\Music\appium\sdk-tools-windows-4333796\platform-tools\adb.exe -P 5037 -s 192.168.43.44\:5555 shell pm clear io.selendroid.testapp'
+2020-05-24 18:10:27:185 [AndroidDriver] Performed fast reset on the installed 'io.selendroid.testapp' application (stop and clear)
+2020-05-24 18:10:27:188 [UiAutomator2] Performing shallow cleanup of automation leftovers
+2020-05-24 18:10:27:371 [UiAutomator2] No obsolete sessions have been detected (Error: socket hang up)
+2020-05-24 18:10:27:373 [ADB] Running 'C:\Users\divya\Music\appium\sdk-tools-windows-4333796\platform-tools\adb.exe -P 5037 -s 192.168.43.44\:5555 shell am force-stop io.appium.uiautomator2.server.test'
+2020-05-24 18:10:27:576 [UiAutomator2] Starting UIAutomator2 server 4.3.0
+2020-05-24 18:10:27:578 [UiAutomator2] Using UIAutomator2 server from 'C:\Program Files\Appium\resources\app\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v4.3.0.apk' and test from 'C:\Program Files\Appium\resources\app\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk'
+2020-05-24 18:10:27:578 [UiAutomator2] Waiting up to 30000ms for UiAutomator2 to be online...
+2020-05-24 18:10:27:580 [ADB] Creating ADB subprocess with args: ["-P",5037,"-s","192.168.43.44:5555","shell","am","instrument","-w","io.appium.uiautomator2.server.test/androidx.test.runner.AndroidJUnitRunner"]
+2020-05-24 18:10:28:589 [WD Proxy] Matched '/status' to command name 'getStatus'
+2020-05-24 18:10:28:594 [WD Proxy] Proxying [GET /status] to [GET http://localhost:8201/wd/hub/status] with no body
+2020-05-24 18:10:28:613 [WD Proxy] Got an unexpected response with status undefined: {"code":"ECONNRESET"}
+2020-05-24 18:10:29:617 [WD Proxy] Matched '/status' to command name 'getStatus'
+2020-05-24 18:10:29:619 [WD Proxy] Proxying [GET /status] to [GET http://localhost:8201/wd/hub/status] with no body
+2020-05-24 18:10:29:635 [WD Proxy] Got an unexpected response with status undefined: {"code":"ECONNRESET"}
+2020-05-24 18:10:29:958 [Instrumentation] io.appium.uiautomator2.server.test.AppiumUiAutomator2Server:
+2020-05-24 18:10:30:638 [WD Proxy] Matched '/status' to command name 'getStatus'
+2020-05-24 18:10:30:639 [WD Proxy] Proxying [GET /status] to [GET http://localhost:8201/wd/hub/status] with no body
+2020-05-24 18:10:30:656 [WD Proxy] Got an unexpected response with status undefined: {"code":"ECONNRESET"}
+2020-05-24 18:10:31:659 [WD Proxy] Matched '/status' to command name 'getStatus'
+2020-05-24 18:10:31:661 [WD Proxy] Proxying [GET /status] to [GET http://localhost:8201/wd/hub/status] with no body
+2020-05-24 18:10:31:817 [WD Proxy] Got response with status 200: {"sessionId":"None","value":{"ready":true,"message":"UiAutomator2 Server is ready to accept commands"}}
+2020-05-24 18:10:31:818 [UiAutomator2] The initialization of the instrumentation process took 4240ms
+2020-05-24 18:10:31:820 [WD Proxy] Matched '/session' to command name 'createSession'
+2020-05-24 18:10:31:821 [WD Proxy] Proxying [POST /session] to [POST http://localhost:8201/wd/hub/session] with body: {"capabilities":{"firstMatch":[{"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","appActivity":"io.selendroid.testapp.HomeScreenActivity","appPackage":"io.selendroid.testapp","deviceName":"SM-M205F","platformVersion":"9","udid":"192.168.43.44:5555"},"platformName":"android","appActivity":"io.selendroid.testapp.HomeScreenActivity","appPackage":"io.selendroid.testapp","deviceName":"192.168.43.44:5555","platformVersion":"9","udid":"192.168.43.44:5555","deviceUDID":"192.168.43.44:5555"}],"alwaysMatch":{}}}
+2020-05-24 18:10:31:906 [WD Proxy] Got response with status 200: {"sessionId":"427d8be6-3570-4a60-9b58-d8f28534a370","value":{"sessionId":"427d8be6-3570-4a60-9b58-d8f28534a370","capabilities":{"firstMatch":[{"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","appActivity":"io.selendroid.testapp.HomeScreenActivity","appPackage":"io.selendroid.testapp","deviceName":"SM-M205F","platformVersion":"9","udid":"192.168.43.44:5555"},"platformName":"android","appActivity":"io.selendroid.testapp.HomeScreenActivity","appPackage":"io.selendroid.testapp","deviceName":"192.168.43.44:5555","platformVersion":"9","udid":"192.168.43.44:5555","deviceUDID":"192.168.43.44:5555"}],"alwaysMatch":{}}}}
+2020-05-24 18:10:31:908 [WD Proxy] Determined the downstream protocol as 'W3C'
+2020-05-24 18:10:31:933 [WD Proxy] Proxying [GET /appium/device/info] to [GET http://localhost:8201/wd/hub/session/427d8be6-3570-4a60-9b58-d8f28534a370/appium/device/info] with no body
+2020-05-24 18:10:32:034 [WD Proxy] Got response with status 200: {"sessionId":"427d8be6-3570-4a60-9b58-d8f28534a370","value":{"androidId":"a55cdbf977e05a00","manufacturer":"samsung","model":"SM-M205F","brand":"samsung","apiVersion":"28","platformVersion":"9","carrierName":"","realDisplaySize":"1080x2340","displayDensity":420,"networks":[{"type":13,"typeName":"WIFI_P2P","subtype":0,"subtypeName":"","isConnected":false,"detailedState":"IDLE","state":"UNKNOWN","extraInfo":null,"isAvailable":true,"isFailover":false,"isRoaming":false,"capabilities":{"transportTypes":"NET_CAPABILITY_SUPL","networkCapabilities":"","linkUpstreamBandwidthKbps":1048576,"linkDownBandwidthKbps":1048576,"signalStrength":-2147483648,"networkSpecifier":null,"SSID":null}},{"type":1,"typeName":"WIFI","subtype":0,"subtypeName":"","isConnected":true,"detailedState":"CONNECTED","state":"CONNECTED","extraInfo":null,"isAvailable":true,"isFailover":false,"isRoaming":false,"capabilities":{"transportTypes":"NET_CAPABILITY_SUPL","networkCapabilities":"","linkUpstreamBandwidthKbps":1048576,"linkDownBandwidthKbps"...
+2020-05-24 18:10:32:035 [ADB] Running 'C:\Users\divya\Music\appium\sdk-tools-windows-4333796\platform-tools\adb.exe -P 5037 -s 192.168.43.44\:5555 shell dumpsys window'
+2020-05-24 18:10:32:197 [AndroidDriver] Screen already unlocked, doing nothing
+2020-05-24 18:10:32:197 [UiAutomator2] Starting 'io.selendroid.testapp/io.selendroid.testapp.HomeScreenActivity and waiting for 'io.selendroid.testapp/io.selendroid.testapp.HomeScreenActivity'
+2020-05-24 18:10:32:199 [ADB] Running 'C:\Users\divya\Music\appium\sdk-tools-windows-4333796\platform-tools\adb.exe -P 5037 -s 192.168.43.44\:5555 shell am start -W -n io.selendroid.testapp/io.selendroid.testapp.HomeScreenActivity -S -a android.intent.action.MAIN -c android.intent.category.LAUNCHER -f 0x10200000'
+2020-05-24 18:10:33:464 [WD Proxy] Proxying [GET /appium/device/pixel_ratio] to [GET http://localhost:8201/wd/hub/session/427d8be6-3570-4a60-9b58-d8f28534a370/appium/device/pixel_ratio] with body: {}
+2020-05-24 18:10:33:500 [WD Proxy] Got response with status 200: {"sessionId":"427d8be6-3570-4a60-9b58-d8f28534a370","value":2.625}
+2020-05-24 18:10:33:505 [WD Proxy] Matched '/appium/device/system_bars' to command name 'getSystemBars'
+2020-05-24 18:10:33:506 [WD Proxy] Proxying [GET /appium/device/system_bars] to [GET http://localhost:8201/wd/hub/session/427d8be6-3570-4a60-9b58-d8f28534a370/appium/device/system_bars] with body: {}
+2020-05-24 18:10:33:541 [WD Proxy] Got response with status 200: {"sessionId":"427d8be6-3570-4a60-9b58-d8f28534a370","value":{"statusBar":85}}
+2020-05-24 18:10:33:544 [WD Proxy] Matched '/window/current/size' to command name 'getWindowSize'
+2020-05-24 18:10:33:546 [WD Proxy] Proxying [GET /window/current/size] to [GET http://localhost:8201/wd/hub/session/427d8be6-3570-4a60-9b58-d8f28534a370/window/current/size] with body: {}
+2020-05-24 18:10:33:584 [WD Proxy] Got response with status 200: {"sessionId":"427d8be6-3570-4a60-9b58-d8f28534a370","value":{"height":2129,"width":1080}}
+2020-05-24 18:10:33:585 [Appium] New AndroidUiautomator2Driver session created successfully, session ef421d2d-1697-4d53-8011-4325ca96271c added to master session list
+2020-05-24 18:10:33:587 [BaseDriver] Event 'newSessionStarted' logged at 1590324033586 (18:10:33 GMT+0530 (India Standard Time))
+2020-05-24 18:10:33:587 [W3C (ef421d2d)] Cached the protocol value 'W3C' for the new session ef421d2d-1697-4d53-8011-4325ca96271c
+2020-05-24 18:10:33:588 [W3C (ef421d2d)] Responding to client with driver.createSession() result: {"capabilities":{"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","appActivity":"io.selendroid.testapp.HomeScreenActivity","appPackage":"io.selendroid.testapp","deviceName":"SM-M205F","platformVersion":"9","udid":"192.168.43.44:5555"},"platformName":"android","appActivity":"io.selendroid.testapp.HomeScreenActivity","appPackage":"io.selendroid.testapp","deviceName":"192.168.43.44:5555","platformVersion":"9","udid":"192.168.43.44:5555","deviceUDID":"192.168.43.44:5555","deviceApiLevel":28,"deviceScreenSize":"1080x2340","deviceScreenDensity":420,"deviceModel":"SM-M205F","deviceManufacturer":"samsung","pixelRatio":2.625,"statBarHeight":85,"viewportRect":{"left":0,"top":85,"width":1080,"height":2044}}}
+2020-05-24 18:10:33:591 [HTTP] <-- POST /wd/hub/session 200 20566 ms - 948
+2020-05-24 18:10:33:591 [HTTP] 
+2020-05-24 18:10:33:732 [HTTP] --> POST /wd/hub/session/ef421d2d-1697-4d53-8011-4325ca96271c/timeouts
+2020-05-24 18:10:33:733 [HTTP] {"implicit":10000}
+2020-05-24 18:10:33:738 [W3C (ef421d2d)] Calling AppiumDriver.timeouts() with args: [null,null,null,null,10000,"ef421d2d-1697-4d53-8011-4325ca96271c"]
+2020-05-24 18:10:33:832 [BaseDriver] W3C timeout argument: {"implicit":10000}}
+2020-05-24 18:10:33:833 [BaseDriver] Set implicit wait to 10000ms
+2020-05-24 18:10:33:835 [W3C (ef421d2d)] Responding to client with driver.timeouts() result: null
+2020-05-24 18:10:33:836 [HTTP] <-- POST /wd/hub/session/ef421d2d-1697-4d53-8011-4325ca96271c/timeouts 200 103 ms - 14
+2020-05-24 18:10:33:837 [HTTP] 
+2020-05-24 18:10:33:847 [HTTP] --> POST /wd/hub/session/ef421d2d-1697-4d53-8011-4325ca96271c/element
+2020-05-24 18:10:33:847 [HTTP] {"using":"id","value":"android:id/button1"}
+2020-05-24 18:10:33:851 [W3C (ef421d2d)] Calling AppiumDriver.findElement() with args: ["id","android:id/button1","ef421d2d-1697-4d53-8011-4325ca96271c"]
+2020-05-24 18:10:33:854 [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2020-05-24 18:10:33:855 [BaseDriver] Waiting up to 10000 ms for condition
+2020-05-24 18:10:33:856 [WD Proxy] Matched '/element' to command name 'findElement'
+2020-05-24 18:10:33:856 [WD Proxy] Proxying [POST /element] to [POST http://localhost:8201/wd/hub/session/427d8be6-3570-4a60-9b58-d8f28534a370/element] with body: {"strategy":"id","selector":"android:id/button1","context":"","multiple":false}
+2020-05-24 18:10:33:938 [WD Proxy] Got response with status 200: {"sessionId":"427d8be6-3570-4a60-9b58-d8f28534a370","value":{"ELEMENT":"b0307da3-49c3-4342-b1ee-87df71618254","element-6066-11e4-a52e-4f735466cecf":"b0307da3-49c3-4342-b1ee-87df71618254"}}
+2020-05-24 18:10:33:940 [W3C (ef421d2d)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"b0307da3-49c3-4342-b1ee-87df71618254","ELEMENT":"b0307da3-49c3-4342-b1ee-87df71618254"}
+2020-05-24 18:10:33:942 [HTTP] <-- POST /wd/hub/session/ef421d2d-1697-4d53-8011-4325ca96271c/element 200 95 ms - 137
+2020-05-24 18:10:33:942 [HTTP] 
+2020-05-24 18:10:33:957 [HTTP] --> POST /wd/hub/session/ef421d2d-1697-4d53-8011-4325ca96271c/element/b0307da3-49c3-4342-b1ee-87df71618254/click
+2020-05-24 18:10:33:958 [HTTP] {"id":"b0307da3-49c3-4342-b1ee-87df71618254"}
+2020-05-24 18:10:33:960 [W3C (ef421d2d)] Calling AppiumDriver.click() with args: ["b0307da3-49c3-4342-b1ee-87df71618254","ef421d2d-1697-4d53-8011-4325ca96271c"]
+2020-05-24 18:10:33:963 [WD Proxy] Matched '/element/b0307da3-49c3-4342-b1ee-87df71618254/click' to command name 'click'
+2020-05-24 18:10:33:964 [WD Proxy] Proxying [POST /element/b0307da3-49c3-4342-b1ee-87df71618254/click] to [POST http://localhost:8201/wd/hub/session/427d8be6-3570-4a60-9b58-d8f28534a370/element/b0307da3-49c3-4342-b1ee-87df71618254/click] with body: {"element":"b0307da3-49c3-4342-b1ee-87df71618254"}
+2020-05-24 18:10:34:006 [WD Proxy] Got response with status 200: {"sessionId":"427d8be6-3570-4a60-9b58-d8f28534a370","value":null}
+2020-05-24 18:10:34:008 [W3C (ef421d2d)] Responding to client with driver.click() result: null
+2020-05-24 18:10:34:010 [HTTP] <-- POST /wd/hub/session/ef421d2d-1697-4d53-8011-4325ca96271c/element/b0307da3-49c3-4342-b1ee-87df71618254/click 200 52 ms - 14
+2020-05-24 18:10:34:010 [HTTP] 
+2020-05-24 18:10:34:017 [HTTP] --> POST /wd/hub/session/ef421d2d-1697-4d53-8011-4325ca96271c/element
+2020-05-24 18:10:34:018 [HTTP] {"using":"xpath","value":"//android.widget.LinearLayout/android.widget.Button[contains(@text,'Display text')]"}
+2020-05-24 18:10:34:020 [W3C (ef421d2d)] Calling AppiumDriver.findElement() with args: ["xpath","//android.widget.LinearLayout/android.widget.Button[contains(@text,'Display text')]","ef421d2d-1697-4d53-8011-4325ca96271c"]
+2020-05-24 18:10:34:023 [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2020-05-24 18:10:34:023 [BaseDriver] Waiting up to 10000 ms for condition
+2020-05-24 18:10:34:025 [WD Proxy] Matched '/element' to command name 'findElement'
+2020-05-24 18:10:34:026 [WD Proxy] Proxying [POST /element] to [POST http://localhost:8201/wd/hub/session/427d8be6-3570-4a60-9b58-d8f28534a370/element] with body: {"strategy":"xpath","selector":"//android.widget.LinearLayout/android.widget.Button[contains(@text,'Display text')]","context":"","multiple":false}
+2020-05-24 18:10:35:262 [WD Proxy] Got response with status 200: {"sessionId":"427d8be6-3570-4a60-9b58-d8f28534a370","value":{"ELEMENT":"d54e0e07-e550-4984-a876-5873ed01973f","element-6066-11e4-a52e-4f735466cecf":"d54e0e07-e550-4984-a876-5873ed01973f"}}
+2020-05-24 18:10:35:265 [W3C (ef421d2d)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"d54e0e07-e550-4984-a876-5873ed01973f","ELEMENT":"d54e0e07-e550-4984-a876-5873ed01973f"}
+2020-05-24 18:10:35:267 [HTTP] <-- POST /wd/hub/session/ef421d2d-1697-4d53-8011-4325ca96271c/element 200 1249 ms - 137
+2020-05-24 18:10:35:269 [HTTP] 
+2020-05-24 18:10:35:278 [HTTP] --> POST /wd/hub/session/ef421d2d-1697-4d53-8011-4325ca96271c/element/d54e0e07-e550-4984-a876-5873ed01973f/click
+2020-05-24 18:10:35:279 [HTTP] {"id":"d54e0e07-e550-4984-a876-5873ed01973f"}
+2020-05-24 18:10:35:281 [W3C (ef421d2d)] Calling AppiumDriver.click() with args: ["d54e0e07-e550-4984-a876-5873ed01973f","ef421d2d-1697-4d53-8011-4325ca96271c"]
+2020-05-24 18:10:35:288 [WD Proxy] Matched '/element/d54e0e07-e550-4984-a876-5873ed01973f/click' to command name 'click'
+2020-05-24 18:10:35:289 [WD Proxy] Proxying [POST /element/d54e0e07-e550-4984-a876-5873ed01973f/click] to [POST http://localhost:8201/wd/hub/session/427d8be6-3570-4a60-9b58-d8f28534a370/element/d54e0e07-e550-4984-a876-5873ed01973f/click] with body: {"element":"d54e0e07-e550-4984-a876-5873ed01973f"}
+2020-05-24 18:10:35:397 [WD Proxy] Got response with status 200: {"sessionId":"427d8be6-3570-4a60-9b58-d8f28534a370","value":null}
+2020-05-24 18:10:35:400 [W3C (ef421d2d)] Responding to client with driver.click() result: null
+2020-05-24 18:10:35:403 [HTTP] <-- POST /wd/hub/session/ef421d2d-1697-4d53-8011-4325ca96271c/element/d54e0e07-e550-4984-a876-5873ed01973f/click 200 123 ms - 14
+2020-05-24 18:10:35:404 [HTTP] 
+2020-05-24 18:10:38:412 [HTTP] --> DELETE /wd/hub/session/ef421d2d-1697-4d53-8011-4325ca96271c
+2020-05-24 18:10:38:413 [HTTP] {}
+2020-05-24 18:10:38:414 [W3C (ef421d2d)] Calling AppiumDriver.deleteSession() with args: ["ef421d2d-1697-4d53-8011-4325ca96271c"]
+2020-05-24 18:10:38:415 [BaseDriver] Event 'quitSessionRequested' logged at 1590324038414 (18:10:38 GMT+0530 (India Standard Time))
+2020-05-24 18:10:38:416 [Appium] Removing session ef421d2d-1697-4d53-8011-4325ca96271c from our master session list
+2020-05-24 18:10:38:428 [UiAutomator2] Deleting UiAutomator2 session
+2020-05-24 18:10:38:430 [UiAutomator2] Deleting UiAutomator2 server session
+2020-05-24 18:10:38:432 [WD Proxy] Matched '/' to command name 'deleteSession'
+2020-05-24 18:10:38:433 [WD Proxy] Proxying [DELETE /] to [DELETE http://localhost:8201/wd/hub/session/427d8be6-3570-4a60-9b58-d8f28534a370] with no body
+2020-05-24 18:10:38:694 [WD Proxy] Got response with status 200: {"sessionId":"427d8be6-3570-4a60-9b58-d8f28534a370","value":null}
+2020-05-24 18:10:38:695 [ADB] Running 'C:\Users\divya\Music\appium\sdk-tools-windows-4333796\platform-tools\adb.exe -P 5037 -s 192.168.43.44\:5555 shell am force-stop io.selendroid.testapp'
+2020-05-24 18:10:38:839 [Instrumentation] .
+2020-05-24 18:10:38:940 [Logcat] Stopping logcat capture
+2020-05-24 18:10:38:951 [ADB] Removing forwarded port socket connection: 8201 
+2020-05-24 18:10:38:952 [ADB] Running 'C:\Users\divya\Music\appium\sdk-tools-windows-4333796\platform-tools\adb.exe -P 5037 -s 192.168.43.44\:5555 forward --remove tcp\:8201'
+2020-05-24 18:10:38:990 [UiAutomator2] Restoring hidden api policy to the device default configuration
+2020-05-24 18:10:38:991 [ADB] Running 'C:\Users\divya\Music\appium\sdk-tools-windows-4333796\platform-tools\adb.exe -P 5037 -s 192.168.43.44\:5555 shell settings delete global hidden_api_policy_pre_p_apps'
+2020-05-24 18:10:39:103 [ADB] Running 'C:\Users\divya\Music\appium\sdk-tools-windows-4333796\platform-tools\adb.exe -P 5037 -s 192.168.43.44\:5555 shell settings delete global hidden_api_policy_p_apps'
+2020-05-24 18:10:39:410 [ADB] Running 'C:\Users\divya\Music\appium\sdk-tools-windows-4333796\platform-tools\adb.exe -P 5037 -s 192.168.43.44\:5555 shell settings delete global hidden_api_policy'
+2020-05-24 18:10:39:546 [BaseDriver] Event 'quitSessionFinished' logged at 1590324039546 (18:10:39 GMT+0530 (India Standard Time))
+2020-05-24 18:10:39:547 [W3C (ef421d2d)] Received response: null
+2020-05-24 18:10:39:547 [W3C (ef421d2d)] But deleting session, so not returning
+2020-05-24 18:10:39:548 [W3C (ef421d2d)] Responding to client with driver.deleteSession() result: null
+2020-05-24 18:10:39:549 [HTTP] <-- DELETE /wd/hub/session/ef421d2d-1697-4d53-8011-4325ca96271c 200 1137 ms - 14
+2020-05-24 18:10:39:549 [HTTP] 

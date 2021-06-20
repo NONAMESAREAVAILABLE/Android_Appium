@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Loan Department" parallel = "tests" thread-count = "2"> <!-- to run test cases of the two test folder in parallel you need to use this thing:  parallel = "tests" thread-count = "2"  -->  
+<!--  if you need to run the tests in parallel from test folder you can use this code parallel = "classes" thread-count="9" -->
+
+
+<!--  Telling the xml file where listeners code is located  -->
+<listeners>
+<listener class-name = "test.Listners"/>  <!-- you can also put name = "test.Listners" it's up to you -->
+</listeners>
+
+	<!-- This parameter belongs to every test of the suite named "Loan Department" -->
+	<parameter name="URL" value="www.google.com" />
+
+	<test thread-count="5" name="Personal Loan">
+
+		<!-- This parameter belongs to every test of the test folder Personal Loan -->
+		<parameter name="URL" value="www.diawi.com" />
+
+		<classes>
+			<class name="test.day1">
+				<methods>
+					<include name="Demo" />
+				</methods>
+			</class>
+			<class name="test.day2" />
+			<class name="test.day4" />
+
+		</classes>
+	</test> <!-- Test -->
+
+	<test name="Car Loan"> <!-- Modularise test cases -->
+
+        <!-- notice two parameters are passed -->
+        <parameter name="URL" value="www.pornhub.com" />
+		<parameter name="APIKey/username" value="Bald" />
+
+		<classes>
+			<class name="test.day3">
+				<methods>
+					<exclude name="API.*" /> <!-- Mobile.* means any test case whose function name starts with Mobile -->
+					<exclude name="MobileloginCarLoan" /> <!-- how to exclude any method from any class -->
+				</methods>
+			</class>
+
+		</classes>
+	</test>
+</suite> <!-- Suite -->

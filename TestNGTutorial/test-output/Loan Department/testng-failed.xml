@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [Loan Department]" parallel="tests">
+  <parameter name="URL" value="www.google.com"/>
+  <listeners>
+    <listener class-name="test.Listners"/>
+  </listeners>
+  <test thread-count="2" name="Personal Loan(failed)" parallel="tests">
+    <parameter name="URL" value="www.diawi.com"/>
+    <classes>
+      <class name="test.day4">
+        <methods>
+          <include name="MobileloginHomeLoan"/>
+        </methods>
+      </class> <!-- test.day4 -->
+    </classes>
+  </test> <!-- Personal Loan(failed) -->
+</suite> <!-- Failed suite [Loan Department] -->
