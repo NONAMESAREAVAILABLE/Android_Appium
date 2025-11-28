@@ -34,7 +34,7 @@ public class BaseClass {
 		caps.setCapability(MobileCapabilityType.PLATFORM_VERSION, "8.1.0");
 		caps.setCapability(MobileCapabilityType.DEVICE_NAME, "SM-M205F");
 		caps.setCapability(MobileCapabilityType.UDID, "3401a603880b268f");
-		caps.setCapability(MobileCapabilityType.NEW_COMMAND_TIMEOUT, 60);
+		caps.setCapability(MobileCapabilityType.NEW_COMMAND_TIMEOUT, 60); //The Appium newCommandTimeout capability specifies the maximum amount of time (in seconds) that Appium will wait for the next command from the client before assuming that the client has stopped sending requests. If this timeout is exceeded, Appium automatically ends the session, freeing up resources and preventing potential hang-ups.
 	//	caps.setCapability(MobileCapabilityType.APP, "");
 		caps.setCapability(MobileCapabilityType.BROWSER_NAME, "Chrome");
 		
@@ -62,7 +62,7 @@ public class BaseClass {
 	*/
 	@AfterSuite
 	public void teardown() {
-		driver.close();
-		driver.quit();
+		driver.close(); //Closes the current application under test
+		driver.quit(); //closes the current appium session
 	}
 }
