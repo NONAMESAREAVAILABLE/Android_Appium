@@ -43,7 +43,7 @@ public class Waits {
 		driver = new AndroidDriver<MobileElement>(url, KOAS);
 	    driverex = new AndroidDriver<MobileElement>(url, KOAS);
 		
-		driver.manage().timeouts().implicitlyWait(100L, TimeUnit.SECONDS);
+		driver.manage().timeouts().implicitlyWait(100L, TimeUnit.SECONDS); //driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10)); -> in new appium client library
 		Instant start = Instant.now();
 		try {
 		driver.findElement(MobileBy.id("android:id/button1")).click();
@@ -54,7 +54,7 @@ public class Waits {
 		}
 		driver.findElementByAndroidUIAutomator("UiSelector().className(\"android.widget.ImageButton\").resourceId(\"io.selendroid.testapp:id/buttonStartWebview\")").click();
 		
-		WebDriverWait wait = new WebDriverWait(driverex, 5L);
+		WebDriverWait wait = new WebDriverWait(driverex, 5L);  //for new appium java client 8.x.x WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
 		wait.until(ExpectedConditions.presenceOfElementLocated(MobileBy.id("io.selendroid.testapp:id/goBack"))).click();
 		Thread.sleep(4000);
 		driver.findElement(MobileBy.AccessibilityId("showPopupWindowButtonCD")).click();

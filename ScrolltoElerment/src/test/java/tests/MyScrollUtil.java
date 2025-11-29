@@ -72,6 +72,40 @@ public class MyScrollUtil {
 	{
 		TouchAction action = new TouchAction(driver);
 		action.press(PointOption.point(startx, starty)).waitAction(WaitOptions.waitOptions(Duration.ofMillis(1000))).moveTo(PointOption.point(endx, endy)).release().perform();
+
+		/*
+		For New Appium 2
+		import org.openqa.selenium.Point;
+		import org.openqa.selenium.WebElement;
+		import org.openqa.selenium.interactions.PointerInput;
+		import org.openqa.selenium.interactions.Sequence;
+		import static java.time.Duration.ofMillis;
+		import static org.openqa.selenium.interactions.PointerInput.Kind.TOUCH;
+		import static org.openqa.selenium.interactions.PointerInput.MouseButton.LEFT;
+		import static org.openqa.selenium.interactions.PointerInput.Origin.viewport;
+
+		// driver: your AppiumDriver instance
+		// start and end are two Point objects (screen coordinates) denoting swipe start & end
+
+		PointerInput finger = new PointerInput(TOUCH, "finger");
+		Sequence swipe = new Sequence(finger, 1);
+
+		swipe.addAction(
+			finger.createPointerMove(ofMillis(0), viewport(), start.getX(), start.getY())
+		);
+		swipe.addAction(
+			finger.createPointerDown(LEFT.asArg())
+		);
+		swipe.addAction(
+			finger.createPointerMove(ofMillis(600), viewport(), end.getX(), end.getY())
+		);
+		swipe.addAction(
+			finger.createPointerUp(LEFT.asArg())
+		);
+
+		driver.perform(java.util.Arrays.asList(swipe));
+
+		*/
 		
 	}
 	

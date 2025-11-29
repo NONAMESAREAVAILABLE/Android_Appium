@@ -95,7 +95,7 @@ public class TestHardwareKeys {
 	
 	Thread.sleep(3000);
 	
-	driver.toggleWifi();  // How to toggle ( turn state of wifi, like if it's on then this will turn it off ) Wifi. toggleWifi() function is taken from interface SupportsNetworkStateManagement
+	driver.toggleWifi();  // How to toggle ( turn state of wifi, like if it's on then this will turn it off ) Wifi. toggleWifi() function is taken from interface SupportsNetworkStateManagement //MAybe not works for new Android Devices
 	Thread.sleep(3000);
 
 	try {

@@ -72,7 +72,7 @@ then enter command(obviously after m20lte:/ $ )
 	
 	driver = new AndroidDriver<MobileElement>(url, cap);
 	
-	driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+	driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS); //driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10)); -> in new appium client library
 	
 	Thread.sleep(3000);
 	
