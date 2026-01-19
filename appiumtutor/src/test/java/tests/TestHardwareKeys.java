@@ -109,7 +109,36 @@ public class TestHardwareKeys {
 So what I'll do I'll put it in a try block behind the ladder.
 	 */
 	
-	
+	//How to open Notification Bar using appium
+	driver.openNotifications();
+
+	//How to enable disable wifi 
+	driver.executeScript(
+    "mobile: shell",
+    ImmutableMap.of(
+        "command", "svc",
+        "args", Arrays.asList("bluetooth", "enable")  // can do bluetooth, wifi and data
+    )
+	);
+
+	//How to check bluetooth status
+	Object output = driver.executeScript(
+    "mobile: shell",
+    ImmutableMap.of(
+        "command", "dumpsys",
+        "args", List.of("bluetooth_manager")  //Can use "wifi" for wifi 
+    )
+);
+
+//How to check Airplane mode
+Object result = driver.executeScript(
+    "mobile: shell",
+    ImmutableMap.of(
+        "command", "settings",
+        "args", Arrays.asList("get", "global", "airplane_mode_on")  //for data List.of("get", "global", "mobile_data")
+    )
+);
+
 	
 	Thread.sleep(4000);
 	driver.pressKey(new KeyEvent(AndroidKey.HOME));  // How to press HOME key
