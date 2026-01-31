@@ -51,6 +51,19 @@ public class draganddrop {
          actions.press(ElementOption.element(elements.get(0))).waitAction(WaitOptions.waitOptions(Duration.ofMillis(1000))).moveTo(ElementOption.element(elements.get(3))).release().perform();
 		
 
+		//New W3C DRAG AND DROP
+		PointerInput finger = new PointerInput(PointerInput.Kind.TOUCH, "finger");
+
+		Sequence tap = new Sequence(finger, 1)
+    .addAction(finger.createPointerMove(Duration.ZERO,
+            PointerInput.Origin.viewport(), x, y))
+    .addAction(finger.createPointerDown(PointerInput.MouseButton.LEFT.asArg()))
+	    .addAction(finger.createPointerMove(Duration.ofMillis(600),
+            PointerInput.Origin.viewport(), endX, endY))
+    .addAction(finger.createPointerUp(PointerInput.MouseButton.LEFT.asArg()));
+
+		driver.perform(List.of(tap));
+
 		Thread.sleep(2000);
 
 		driver.quit();
